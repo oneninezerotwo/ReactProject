@@ -5,7 +5,8 @@ class HomePage extends React.Component {
     render() {
         return (
             <div>
-                <Tabbar />
+                首页
+                <Tabbar tabs={0} />
             </div>
         )
     }
