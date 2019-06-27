@@ -6,6 +6,7 @@ import ClassifyPage from './routes/ClassifyPage/ClassifyPage';
 import HeadIinePage from './routes/HeadIinePage/HeadIinePage';
 import CartPage from './routes/CartPage/CartPage';
 import MinePage from './routes/MinePage/MinePage';
+import LoginPage from './routes/LoginPage/LoginPage';
 // import { Provider } from 'dva'
 function RouterConfig({ history }) {
   return (
@@ -17,6 +18,7 @@ function RouterConfig({ history }) {
         <Route path="/headIine" component={HeadIinePage} />
         <Route path="/cart" component={CartPage} />
         <Route path="/mine" component={MinePage} />
+        <Route path="/login" component={LoginPage} />
       </Switch>
     </Router>
   );
