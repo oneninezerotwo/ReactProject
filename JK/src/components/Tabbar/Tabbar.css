@@ -1,0 +1,41 @@
+.tab_bar {
+  width: 100%;
+  max-width: 960px;
+  min-width: 320px;
+  height: 102px;
+  position: fixed;
+  border-top: 2px solid #e3e3e3;
+  bottom: 0;
+  z-index: 999;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.tab_bar .tab_bar_item {
+  flex: 1;
+  text-align: center;
+  display: inline-block;
+  color: #333;
+}
+
+.tab_bar .tab_bar_item i {
+  font-size: 20px;
+}
+
+.tab_bar .tab_bar_item .iconfont {
+  font-family: iconfont !important;
+  font-size: 48px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tab_bar .tab_bar_item p {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.tab_bar .active {
+  color: #28b2f9;
+}

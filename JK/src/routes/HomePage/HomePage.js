@@ -1,12 +1,13 @@
 import React from 'react';
 import { connect } from 'dva';
-
+import Tabbar from '../../components/Tabbar/Tabbar'
 class HomePage extends React.Component {
     render() {
         return (
             <div>
                 首页
-        </div>
+                <Tabbar tabs={0} />
+            </div>
         )
     }
 }

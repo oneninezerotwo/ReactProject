@@ -1,5 +1,6 @@
 import React from 'react';
 import { Router, Route, Switch } from 'dva/router';
+// import { BrowserRouter as Router, Route, Switch,  Redirect} from "react-router-dom";
 import IndexPage from './routes/IndexPage/IndexPage';
 import HomePage from './routes/HomePage/HomePage';
 import ClassifyPage from './routes/ClassifyPage/ClassifyPage';
@@ -20,8 +21,9 @@ function RouterConfig({ history }) {
         <Route path="/mine" component={MinePage} />
         <Route path="/login" component={LoginPage} />
       </Switch>
+      {/* <Redirect to="/home" /> */}
     </Router>
-  );
-}
-
-export default RouterConfig;
+      );
+    }
+    
+    export default RouterConfig;
