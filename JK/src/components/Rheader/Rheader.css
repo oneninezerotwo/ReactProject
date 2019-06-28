@@ -1,0 +1,51 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    /* overflowy: scroll; */
+    /* webkitoverflowscrolling: touch; */
+    font-size: 14px;
+}
+header {
+    display: block;
+}
+header>div{
+    height: 2.8rem;
+    text-align: center;
+    color: #111;
+    background: #fdfdfd;
+    font-size: 1rem;
+    position: relative;
+    line-height: 2.8rem;
+    border-bottom: 1px solid #eee;
+}
+header>div .back-btn {
+    left: 10px;
+    position: absolute;
+    line-height: 1.4rem;
+}
+.iconfont {
+    font-family: iconfont!important;
+    font-size: 1rem;
+    font-style: normal;
+}
+.icon-fanhui{
+    position: absolute;
+    left: 0.8rem;
+    top: 0.8rem;
+}
+header>div .toggle-btn {
+    width: auto;
+    right: 0.5rem;
+    top: 0.1rem;
+    position: absolute;
+    line-height: 1.5rem;
+}
+.commonwidth{
+    position: relative;
+}
+.icon-gengduo{
+    position: absolute;
+    right: 0.8rem;
+    top: 0.8rem;
+}
+    

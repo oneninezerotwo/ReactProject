@@ -1,0 +1,54 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+.clause-box .clause-content {
+    padding: 1.1rem;
+}
+.clause-box .clause-content .protocol  {
+    padding: .81rem 0;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-size: 2em;
+}
+.clause-box .clause-content .para {
+    font-size: 12px;
+    line-height: 1.3rem;
+    color: #777;
+    text-indent: 24px;
+    text-align: justify;
+}
+.clause-box .clause-content .block {
+    font-weight: 700;
+    color: #000;
+}
+.clause-box .footer{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1.3rem;
+    padding: 1.1rem 0;
+    background: #dcdddc;
+}
+.clause-box .footer .tel {
+    height: 1.6rem;
+    border-radius: 4px;
+    line-height: 1.6rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    background: #0d75ae;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0 .64rem;
+}
+.clause-box .footer p {
+    margin: .53rem 0;
+}
+.clause-box .footer .copyright {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 0;
+}
