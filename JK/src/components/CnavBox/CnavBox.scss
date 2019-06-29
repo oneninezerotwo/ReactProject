@@ -1,0 +1,27 @@
+.classify-nav-box {
+    width: 160px;
+    position: fixed;
+    height: 100%;
+    padding-top: 180px;
+    padding-bottom: 120px;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    background: #f0f0f0;
+    box-sizing: border-box;
+    .nav-list {
+        text-align: center;
+        letter-spacing: 2px;
+        li {
+            height: 96px;
+            line-height: 96px;
+            border-bottom: 2px solid #e6e6e6;
+            overflow: hidden;
+        }
+        .current {
+            background: #fff;
+            color: #1b8ffa;
+            border-right: 2px solid #fff;
+        }
+    }
+}

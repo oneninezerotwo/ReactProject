@@ -3,7 +3,10 @@ export default {
 
   namespace: 'example',
 
-  state: {},
+  state: {
+    indexPut:0,
+    NavList:[]
+  },
 
   subscriptions: {
     setup({ dispatch, history }) {  // eslint-disable-line

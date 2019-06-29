@@ -1,0 +1,114 @@
+.class-head {
+  z-index: 111;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.class-head .hcon {
+  height: 88px;
+  text-align: center;
+  color: #111;
+  background: #fdfdfd;
+  font-size: 40px;
+  position: relative;
+  line-height: 88px;
+  border-bottom: 2px solid #eee;
+}
+
+.class-head .hcon .back-btn {
+  left: 20px;
+  position: absolute;
+  line-height: 48px;
+}
+
+.class-head .hcon .common-header-btn {
+  width: 48px;
+  height: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.class-head .hcon .toggle-btn {
+  width: auto;
+  right: 20px;
+  position: absolute;
+  line-height: 48px;
+}
+
+.class-head nav {
+  border-bottom: 2px solid #eee;
+}
+
+.class-head nav {
+  height: 120px;
+  width: 100%;
+  left: 0;
+  z-index: 99;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.class-head nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.class-head nav ul li {
+  flex: 1 25%;
+  width: 25%;
+  list-style: none;
+  text-align: center;
+}
+
+.class-head nav ul li a {
+  display: inline-block;
+}
+
+.class-head nav ul li a .iconfont {
+  font-family: iconfont !important;
+  font-size: 50px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.class-head nav ul .arrows-tag {
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid #eee;
+  border-left: 2px solid #ddd;
+  position: absolute;
+  right: 32px;
+  top: -14px;
+  background-color: #f2f2f2;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.class-head nav ul em {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  font-style: normal;
+  text-decoration-style: none;
+  margin-top: .14rem;
+}
+
+.class-head .iconfont {
+  font-family: iconfont !important;
+  font-size: 40px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.class-head .icon-guanbi {
+  color: #0075de;
+  font-size: 55px;
+}

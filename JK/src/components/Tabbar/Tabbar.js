@@ -33,10 +33,10 @@ class Tabbar extends React.Component {
         ],
         indexput:0
     }
-    goback(index){
-        this.state.indexput = index
-        console.log(this.state.indexput,index)
-    }
+    // goback(index){
+    //     this.state.indexput = index
+    //     console.log(this.state.indexput,index)
+    // }
     render() {
         return (
             <div className="tab_bar">
@@ -45,9 +45,7 @@ class Tabbar extends React.Component {
                         return (
                             <Link to={{
                                 pathname:item.url
-                            }} onClick={
-                                this.goback.bind(this,index)
-                            } key={index} className={this.props.tabs===index?"tab_bar_item active":"tab_bar_item"}>
+                            }} key={index} className={this.props.tabs===index?"tab_bar_item active":"tab_bar_item"}>
                                 <i className={item.icon}></i>
                                 <p>{item.title}</p>
                             </Link>

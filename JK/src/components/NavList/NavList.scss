@@ -1,0 +1,26 @@
+.home-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #fff;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    height: 356px;
+    li {
+        width: 25%;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 20px;
+        .nav-icon {
+            width: 80px;
+            display: block;
+            margin: 10px auto;
+        }
+        .nav-txt {
+            padding: 8px;
+            font-size: 24px;
+        }
+    }
+
+}

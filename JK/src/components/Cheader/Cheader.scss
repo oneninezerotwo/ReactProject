@@ -1,0 +1,102 @@
+.class-head {
+    z-index: 111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    .hcon {
+        height: 88px;
+        text-align: center;
+        color: #111;
+        background: #fdfdfd;
+        font-size: 40px;
+        position: relative;
+        line-height: 88px;
+        border-bottom: 2px solid #eee;
+        .back-btn {
+            left: 20px;
+            position: absolute;
+            line-height: 48px;
+        }
+        .common-header-btn {
+            width: 48px;
+            height: 48px;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+        }
+        .toggle-btn {
+            width: auto;
+            right: 20px;
+            position: absolute;
+            line-height: 48px;
+        }
+        
+    }
+    nav {
+        border-bottom: 2px solid #eee;
+    }
+    nav {
+        height: 120px;
+        width: 100%;
+        left: 0;
+        z-index: 99;
+        background-color: #f2f2f2;
+        position: relative;
+        ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            li {
+                flex: 1 25%;
+                width: 25%;
+                list-style: none;
+                text-align: center;
+                a {
+                    display: inline-block;
+                    .iconfont {
+                        font-family: iconfont!important;
+                        font-size: 50px;
+                        font-style: normal;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                    }
+                }
+            }
+            .arrows-tag {
+                width: 20px;
+                height: 20px;
+                border-top: 2px solid #eee;
+                border-left: 2px solid #ddd;
+                position: absolute;
+                right: 32px;
+                top: -14px;
+                background-color: #f2f2f2;
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+            em {
+                display: block;
+                font-size: 13px;
+                text-align: center;
+                font-style: normal;
+                text-decoration-style: none;
+                margin-top: .14rem;
+            }
+        }
+
+    }
+    .iconfont {
+        font-family: iconfont!important;
+        font-size: 40px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .icon-guanbi{
+        color: #0075de;
+        font-size: 55px;
+    }
+}
